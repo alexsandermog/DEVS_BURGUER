@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'roboto', sans-serif; ;
+    text-align: center;
+    background-color: rgb(236, 85, 85);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 30px;
+    border-bottom: 1px solid #333;
+    font-weight: 700;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.menu-title {
+    font-family: 'VT323';
+    margin: 0px 0 10px;
+}
+
+.menu-subtitle {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+/* Produto catalogo */
+
+section .catalogo {
+    width: 100vw;
+    padding: 100px;
+}
+
+section .filter-card {
+    width: 980px;
+    height: 60px;
+    background: var(--gray);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section .card-wrapper {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 1px;
+}
+
+section .card-item {
+    height: 200px;
+    background: rgb(255, 249, 249);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.card-item-1 {
+    height: 200px;
+    background: rgb(255, 249, 249);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.card-item-1 img {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    
+    
+}
+
+.card-item img {
+    margin-top: 4px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.card-item button {
+    margin-top: 5px;
+    border-radius: 40px;
+}
+
+.card-item-1 button {
+    margin-top: 5px;
+    border-radius: 10px;
+    border-radius: 40px;
+}
+
+.card-item-1 h3 {
+    font-weight: bold;
+    color: black
+}
+
+.card-item h3 {
+    font-weight: bold;
+    color: black
+}
+
+.card-item p {
+    color: rgb(0, 0, 0);
+}
+
+.card-item-1 p {
+    color: rgb(0, 0, 0);
+}
+
+.card-content {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Catalogo de bebidas
+**
+**
+**
+*/
+.container-1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-subtitle-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.card-item-2 {
+    height: 200px;
+    background: rgb(255, 249, 249);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.card-item-2 button {
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.card-item-2 h3 {
+    font-weight: bold;
+    color: black
+}
+
+.card-item-2 p {
+    color: rgb(0, 0, 0);
+}
+
+.card-content-1 {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-item-2 img {
+    margin-top: 4px;
+    width: 60px;
+    height: 150px;
+    align-items: center;
+    border-radius: 8px;
+    
+
+}
+
+section .card-wrapper-1 {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 1px;
+    
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(236, 85, 85);
+    border-radius: 40px;
+  }
+
+.button:hover {
+    background-color: rgb(236, 85, 85);
+    color: white;
+  }
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    font-size: 30px;
+    border: 2px solid rgb(236, 85, 85);
+    width: 300px;
+    height: 70px;
+  }
+
+.button2:hover {
+    background-color: rgb(236, 85, 85);
+    color: white;
+    width: 300;
+    height: 70px;
+  }
+
+  .card-item-3 img {
+    margin-top: 4px;
+    width: 100px;
+    height: 130px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.card-item-3 h3 {
+    font-weight: bold;
+    color: black
+}
+
+.card-item-3 p {
+    color: rgb(0, 0, 0);
+}
+
+.card-item-3 {
+    height: 200px;
+    background: rgb(255, 249, 249);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.vegano img {
+    width: 140px;
+    height: 100px;
+}
+
+.xduplo img {
+    width: 95px;
+    height: 100px;
+}
+
+.xegg {
+    width: 110px;
+    height: 170px;
+}
+
+.xtudoduplo {
+    width: 110px;
+    height: 170px;
+}
+
+.xbacon2 {
+    height: 115px;
+}
+
+.card-item-3 button {
+    margin-top: 5px;
+    border-radius: 10px;
+    border-radius: 40px;
+}
+
+.card-item-2 button {
+    margin-top: 5px;
+    border-radius: 10px;
+    border-radius: 40px;
+}
+
+.logo img{
+    max-width: 500px;
+    max-height: 200px;;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    bottom: 0px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    margin-top: 120px;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 8px 0px; 
+
+}
+.left .social{
+    padding: 3%;
+
+}
+
+.center .content{
+    padding: 0 70px;
+
+
+}
+.box h3{
+    font-size: 15px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: white;
+}
+.box .content{
+    margin: 8px 8 0 0;
+}
+.left .content .social{
+    margin: 10px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;    
+}
+.left .content .social a span{
+   padding: auto;
+}
+.right .social{
+    padding-left: 10px;
+}
+
+.menu-subtitle p {
+    text-shadow: #000 1px 2px 1px;
+}
+
+.menu-subtitle-1 p {
+    text-shadow: #000 1px 2px 1px;
+}
+    

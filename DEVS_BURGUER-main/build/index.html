@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=VT323" />
+    <script src="https://kit.fontawesome.com/c6679ce87d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="bundle.js"></script>
+    <header>
+        <h1 class="menu-title">
+            <div class="logo">
+            <img src="fotos_bebidas/logo.png" alt="logo">
+            </div>
+        </h1>
+        <h2><font color = "black" >{Programar de barriga vazia não dá!}</font></h2>
+    </header>
+    <div class="container">
+        <div class="menu-subtitle">
+            <p>Escolha o que você deseja abaixo:</p>
+        </div>
+    </div>
+    <section class="catalogo" id="catalog">
+        <div class="content">
+            <button onclick="finalizePurchase()" class="button button2" >Finalizar Compra</button>
+            <div class="title-wrapper-catalog">
+            </div>
+            <div class="filter-card">
+            </div>
+            <center>
+            <div class="card-wrapper">
+                <div class="card-item">
+                    <div class="xegg">
+                    <img src="fotos_hamburguers/hemburguer-1.png" alt="burguer">
+                    </div>
+                    <div class="card-content">
+                        <h3>X-Egg</h3>
+                        <p>1 carne, ovo, queijo</p>
+                        <div>
+                            <p>R$ 15,99</p>
+                            <button onclick="Fxegg()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="xbacon2">
+                    <img src="fotos_hamburguers/hamburguer-2.png" alt="burguer">
+                    </div>
+                    <div class="card-content">
+                        <h3>X-Bacon</h3>
+                        <p>1 carne, bacon, 1 queijo</p>
+                        <div>
+                            <p>R$ 17,99</p>
+                            <button onclick="Fxbacon()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item-1">
+                    <div class="xtudoduplo">
+                    <img src="fotos_hamburguers/hamburguer-6.png" alt="burguer">
+                    </div>
+                    <div class="card-content">
+                        <h3>X-Larica</h3>
+                        <p>2 Carne, 2 queijo, salada, gergelim</p>
+                        <div>
+                            <p>R$ 19,90</p>
+                            <button onclick="Fxlarica()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="xsalada">
+                    <img src="fotos_hamburguers/hamburguer-4.png" alt="burguer">
+                    </div>
+                    <div class="card-content">
+                        <h3>X-Salada</h3>
+                        <p>1 Carne, queijo, bacon, salada, gergelim</p>
+                        <div>
+                            <p>R$ 16,99</p>
+                            <button onclick="Fxsalada()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item-1">
+                    <div class="xduplo">
+                    <img src="fotos_hamburguers/hamburguer-5.png" alt="burguer">
+                    </div>
+                    <div class="card-content">
+                        <h3><b>X-Duplo</b></h3>
+                        <p>2 Carnes, 2 queijos, picles, gergelim</p>
+                        <div>
+                            <p>R$ 18,99</p>
+                            <button onclick="Fxduplo()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item-1">
+                    <div class="vegano">
+                    <img src="fotos_hamburguers/vegano" alt="burguer">
+                    </div>
+                    <div class="card-content">
+                        <h3>X-Vegano<strong> {-10% desconto}</strong></h3>
+                        <p>Carne de lentilha, cebola, cheiro verde</p>
+                        <div>
+                            <p><s>R$ 22,99</s> R$ 20,70</p>
+                            <button onclick="Fxvegan()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <div class="container-1">
+        <div class="menu-subtitle-1">
+            <p><br/>Bebidas</p>
+        </div>
+    </div>
+    </section>
+    <section class="catalogo-bebidas" id="catalogo">
+        <div class="content">
+            <div class="title-wrapper-catalog">
+            </div>
+            <div class="filter-card">
+            </div>
+            <center>
+            <div class="card-wrapper-1">
+                <div class="card-item-3">
+                    <img src="fotos_bebidas/pepsi" alt="burguer">
+                    <div class="card-content-1">
+                        <h3>Pepsi</h3>
+                        <div>
+                            <p>R$ 6,00</p>
+                            <button onclick="Fpepsi()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item-3">
+                    <img src="fotos_bebidas/fanta" alt="burguer">
+                    <div class="card-content-1">
+                        <h3>Fanta Laranja</h3>
+                        <div>
+                            <p>R$ 5,50</p>
+                            <button onclick="Ffanta()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item-2">
+                    <img src="fotos_bebidas/bebida-2.png" alt="bebida">
+                    <div class="card-content-1">
+                        <h3>Coca-Cola</h3>
+                        <div>
+                            <p>R$ 6,00</p>
+                            <button onclick="Fcoca()" class="button button1" >Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    </section>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+         <h3>Devs Burguer</h3>
+                <div class="content">
+                    <p></p>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>    
+            </div> 
+       <div class="center box">
+                <h3>Endereço</h3>
+                <div class="content">
+                    <div class="place">
+                        <span class = "text">   endereço teste nº 19 - Rio de janeiro</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right box">
+           <h3>Redes sociais dos Devs</h3>     
+           
+            <div class="social-dev">
+
+            <div class="devs">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class= "fa-brands fa-linkedin"></i></a>
+            </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
